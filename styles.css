@@ -10,7 +10,7 @@ h2 {text-align: center;
 }
 h3 {color: FireBrick;
     font-family: futura, sans-serif;
-  }
+}
 p { font-family: futura, sans-serif;}
 ol {text-align: center;
   font-family: futura, sans-serif;
@@ -24,4 +24,28 @@ a:visited {
 }
 html {
   scroll-behavior: smooth;
+}
+p, h1, h2 {
+  border: FireBrick 3px solid;
+}
+a{
+  border: FireBrick 2px solid;
+  }
+ol{
+  padding: 2%;
+  margin: auto;
+  border: LemonChiffon 1px solid;
+  width: 80%;
+}
+li{
+  border-bottom: LemonChiffon 2px solid;
+  padding: 5px;
+  width: 90%;
+  margin: auto;
+}
+img{
+  border: Saddlebrown 2px solid;
+  background: LemonChiffon;
+  margin: 10px auto;
+  padding: 2%;
 }
